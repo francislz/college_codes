@@ -1,0 +1,7 @@
+file = open('bnf-java.txt')
+line = file.readline()
+print(line)
+pos1 = line.find('<')
+pos2 = line.find(' ')
+print(pos1)
+print(line[pos2+1])

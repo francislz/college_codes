@@ -1,0 +1,60 @@
+mapa = {
+	'admin.': [[0],[0],[0],[0]],
+	'blue-collar': [[0],[0],[0],[1]],
+	'entrepreneur': [[0],[0],[1],[0]],
+	'housemaid': [[0],[0],[1],[1]],
+	'management': [[0],[1],[0],[0]],
+	'retired': [[0],[1],[0],[1]],
+	'self-employed': [[0],[1],[1],[0]],
+	'services': [[0],[1],[1],[1]],
+	'student': [[1],[0],[0],[0]],
+	'technician': [[1],[0],[0],[1]],
+	'unemployed': [[1],[0],[1],[0]],
+	'unknown': [[1],[0],[1],[1]]
+}
+
+marital = {
+	'single': [0,0],
+	'married': [0,1],
+	'divorced': [1,0]
+}
+
+education = {
+	'primary': [0,0],
+	'secondary': [0,1],
+	'tertiary': [1,0],
+	'unknown': [1,1]
+}
+
+yes_no = {
+	'no':[0],
+	'yes'[1]
+}
+
+contact = {
+	'cellular': [0,0],
+	'telephone': [0,1],
+	'unknown': [1,0]
+}
+
+month = {
+	'jan':[0,0,0,0],
+	'feb':[0,0,0,1],
+	'mar':[0,0,1,0],
+	'apr':[0,0,1,1],
+	'may':[0,1,0,0],
+	'jun':[0,1,0,1],
+	'jul':[0,1,1,0],
+	'aug':[0,1,1,1],
+	'sep':[1,0,0,0],
+	'oct':[1,0,0,1],
+	'nov':[1,0,1,0],
+	'dec':[1,0,1,1]
+}
+
+poutcome = {
+	'failure':[0,0],
+	'success':[0,1],
+	'other':[1,0],
+	'unknown':[1,1]	
+}

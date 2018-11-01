@@ -1,0 +1,8 @@
+#hostels #pts_tur T
+hostel0 x y
+hostel1 x y
+hostel_{final} x y
+ptTur0 x y t_{ptTur0}
+ptTur1 x y t_{ptTur1}
+...
+ptTur_{final} x y t_{ptTur_{final}}
